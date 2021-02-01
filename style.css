@@ -18,33 +18,24 @@ body {
     width: 100%;
 }
 
-.card-top {
+
+.card {
     position: absolute;
     margin: 0 auto;
     width: 300px;
-    height: 100px;
+    height: 350px;
+    
     background-color: white;
     top: 200px;
-    border-radius: 15px 15px 0 0;
-    text-align: center;
-
-    border: 1px solid red;
-}
-
-
-.card-bottom {
-    position: absolute;
-    margin: 0 auto;
-    width: 300px;
-    background-color: white;
-    top: 300px;
     padding: 80px 0 25px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
     text-align: center;
-    z-index: 20;
-    background: white url(images/image-victor.jpg) no-repeat center -50%;
+    background: white url(images/bg-pattern-card.svg) no-repeat top;
 } 
 
+.wrapper {
+
+}
 
 /* Name */
 h1 {
@@ -67,6 +58,7 @@ h2 {
 
 /* Stats Area */
 .stats {
+    margin-top: 110px;
     line-height: 20px;
     padding-top: 10%;
     border-top: 1px hsla(0, 0%, 59%, 0.2) solid;
