@@ -29,6 +29,7 @@ body {
     border-radius: 15px;
     text-align: center;
     background: white url(images/bg-pattern-card.svg) no-repeat top;
+    box-shadow: 0 40px 60px 10px hsl(229, 23%, 23%, .3);
 } 
 
 /* Photo */
