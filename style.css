@@ -97,15 +97,15 @@ h2 {
 /* TOP BG CIRCLE */
 .svg-top  {
     position: fixed;
-    bottom: 230px;
-    right: 750px;
+    bottom: 34%;
+    right: 52%;
 }
 
 /* BOTTOM BG CIRCLE */
 .svg-bottom {
     position: fixed;
-    top: 415px;
-    left: 675px;
+    top: 55%;
+    left: 47%;
 }
 
 footer {
